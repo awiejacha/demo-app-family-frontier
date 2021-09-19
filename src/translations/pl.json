@@ -1,0 +1,37 @@
+{
+  "locations": {
+    "not_specified": "w nieokreślonym miejscu",
+    "living_room": "w salonie",
+    "kitchen": "w kuchni",
+    "master_bedroom": "w sypialni",
+    "krystian_bedroom": "w pokoju Krystka",
+    "karol_bedroom": "w pokoju Karolka",
+    "bathroom": "w łazience",
+    "wardrobe": "w garderobie",
+    "clothes_locker": "w schowku na kurtki",
+    "laundry_locker": "w schowku na pranie"
+  },
+  "persons": {
+    "anusia": "Anusia",
+    "karolek": "Karolek",
+    "krystek": "Krystek",
+    "adrianek": "Adrianek"
+  },
+  "states": {
+    "pending": "Oczekuje",
+    "ongoing": "W trakcie",
+    "in_review": "W przeglądzie",
+    "done": "Gotowe"
+  },
+  "task_definitions": {
+    "dishes_washing": "Zmywanie naczyń",
+    "dusting": "Ścieranie kurzy",
+    "floor_cleaning": "Mycie podłogi",
+    "ironing": "Prasowanie",
+    "laundry_collecting": "Zbieranie prania",
+    "laundry_ejecting": "Wyjęcie prania",
+    "laundry_hanging": "Powieszenie prania",
+    "tidying_up": "Sprzątanie",
+    "vacuuming": "Odkurzanie"
+  }
+}

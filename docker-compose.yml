@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  ui:
+    container_name: ui
+    build: "."
+    working_dir: /home/node
+    environment:
+      PORT: 8080
+      NODE_ENV: development
+    volumes:
+      - .:/home/node:delegated
+    ports:
+      - 8080:8080
+    entrypoint: npm
+    command: start
+    networks:
+      family_frontier:
+
+networks:
+  family_frontier:
+    driver: bridge
